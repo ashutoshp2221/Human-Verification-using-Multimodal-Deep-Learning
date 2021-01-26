@@ -1,3 +1,11 @@
+'''
+
+This file contains utility functino that converts the face images and audio spectrograms into numpy arrays and returns them as features and labels.
+
+'''
+
+
+
 import numpy as np
 import tensorflow as tf
 import os

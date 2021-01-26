@@ -1,3 +1,11 @@
+'''
+
+This module contains utility functions that creates multimodal data pairs that will be used for training the Multimodal Siamese Network. Returns the data pairs and labels.
+
+
+'''
+
+
 def create_same_class_pairs(X,y,check,img_a,img_b,img_y,same_class_list,num):
 
   i = 0

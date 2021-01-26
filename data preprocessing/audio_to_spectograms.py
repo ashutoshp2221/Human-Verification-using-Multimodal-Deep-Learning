@@ -1,3 +1,10 @@
+'''
+
+This module contains a utility function that converts audio files into spectrograms.
+
+'''
+
+
 import os
 import pylab
 import wave

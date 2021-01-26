@@ -1,3 +1,11 @@
+'''
+
+This file contains the final Multimodal Siamese Network which takes in two images and two audio files and predc=icts whether they are from the same person or not.
+
+architechtures.py which have been imported contains the individual face and audio detection models.
+
+'''
+
 import architectures
 
 # siamese network model which helps in one-shot learning
