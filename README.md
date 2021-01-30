@@ -13,7 +13,9 @@ network that can incorporate multimodalities and train with less amounts of data
 
 Our deep learning model uses a siamese network to perform a one-shot learning task from the aggregated features of both the individual face and audio networks. Using a metric space method we have trained the model to identify if two given data points belong to the same class or not.
 
-![Siamese Network](./images/image1.png)
+<p align='center'>
+    <img src="./images/image1.png" alt="Sample" style="text-align:center; width: 600px;"/>
+</p>
 
 ***
 ## Models
