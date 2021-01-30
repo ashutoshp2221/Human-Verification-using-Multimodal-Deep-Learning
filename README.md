@@ -31,4 +31,5 @@ Our deep learning model uses a siamese network to perform a one-shot learning ta
 ## Contributors
 
 
-@4molybdenum2 [@harshoo3](https://github.com/harshoo3) [@ashutoshparmarap](https://github.com/ashutoshparmarap)
+@4molybdenum2 [@harshoo3](https://github.com/harshoo3) [@ashutoshparmarap](https://github.com/ashutoshparmarap) <br>
+Thanks to: [@Juhi-Purswani](https://github.com/Juhi-Purswani) for all the support!
