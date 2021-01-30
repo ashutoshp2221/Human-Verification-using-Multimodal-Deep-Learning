@@ -26,3 +26,9 @@ Our deep learning model uses a siamese network to perform a one-shot learning ta
 ## Datasets
 
 + [VoxCeleb1 Test](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/vox1.html)
+
+***
+## Contributors
+
+
+@4molybdenum2 [@harshoo3](https://github.com/harshoo3) [@ashutoshparmarap](https://github.com/ashutoshparmarap)
