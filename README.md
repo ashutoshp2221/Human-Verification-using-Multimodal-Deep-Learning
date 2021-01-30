@@ -1,4 +1,4 @@
-# Human-Recognition-using-Multimodal-Deep-Learning
+# Human-Verification-using-Multimodal-Deep-Learning
 
 This project explores the use of an aggregate network to verify the identity of a person using his facial and speech data.
 The conventional method of deep learning is to process huge amounts of a certain type of data to do a certain job. But us humans don't 
