@@ -1,5 +1,12 @@
 # Human-Verification-using-Multimodal-Deep-Learning
 
+
+![version](https://img.shields.io/badge/tensorflow-v2.4.1-gold.svg)
+![version](https://img.shields.io/badge/numpy-v1.19.5-blue.svg)
+![version](https://img.shields.io/badge/Keras-v2.4.3-green.svg)
+![version](https://img.shields.io/badge/opencv-v4.1.2.30-red.svg)
+![version](https://img.shields.io/badge/scikitlearn-v0.22.2-purple.svg)
+
 This project explores the use of an aggregate network to verify the identity of a person using his facial and speech data.
 The conventional method of deep learning is to process huge amounts of a certain type of data to do a certain job. 
 But us humans don't process data in a similar fashion. We use both audio and visual cues to understand data. 
@@ -18,6 +25,14 @@ Our deep learning model uses a siamese network to perform a one-shot learning ta
 </p>
 
 ***
+## Pipeline
+
+1. Audio clips are converted into MEL spectrograms using matplotlib.
+2. Preprocessing images and audio spectrograms into data pairs to feed into the fused neural network.
+3. Forming train-test splits using sklearn
+4. Model contains VGG16 as the base model for image recognition and multiple Conv2D layers in the audio and fused model with output layer as a sigmoid layer.
+
+***
 ## Models
 
 + Base model: [VGG16](https://arxiv.org/abs/1409.1556)
@@ -27,6 +42,17 @@ Our deep learning model uses a siamese network to perform a one-shot learning ta
 
 + [VoxCeleb1 Test](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/vox1.html)
 
+***
+
+## Setup
+
+All of our training has been done on Colab Notebooks. So it is recommended to do so. 
+
+For setup on PC run in terminal:
+```shell
+pip install -r requirements.txt
+```
+To install the dependencies.
 ***
 ## Contributors
 
