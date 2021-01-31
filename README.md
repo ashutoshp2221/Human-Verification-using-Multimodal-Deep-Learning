@@ -8,7 +8,7 @@
 ![version](https://img.shields.io/badge/scikitlearn-v0.22.2-purple.svg)
 
 This project explores the use of an aggregate network to verify the identity of a person using his facial and speech data.
-The conventional method of deep learning is to process huge amounts of a certain type of data to do a certain job. 
+The conventional method of deep learning is used to process huge amounts of a certain type of data to do a certain job. 
 But us humans don't process data in a similar fashion. We use both audio and visual cues to understand data. 
 The objective of this project is to explore how deep learning models can perceive data in a similar way. 
 
@@ -57,4 +57,5 @@ To install the dependencies.
 ## Contributors
 
 
-@4molybdenum2 [@harshoo3](https://github.com/harshoo3) [@ashutoshparmarap](https://github.com/ashutoshparmarap)
+@4molybdenum2 [@harshoo3](https://github.com/harshoo3) [@ashutoshparmarap](https://github.com/ashutoshparmarap) <br>
+Thanks to: [@Juhi-Purswani](https://github.com/Juhi-Purswani) for all the support!
