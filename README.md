@@ -31,6 +31,7 @@ Our deep learning model uses a siamese network to perform a one-shot learning ta
 2. Preprocessing images and audio spectrograms into data pairs to feed into the fused neural network.
 3. Forming train-test splits using sklearn
 4. Model contains VGG16 as the base model for image recognition and multiple Conv2D layers in the audio and fused model with output layer as a sigmoid layer.
+5. Training the model.
 
 ***
 ## Models
@@ -44,12 +45,41 @@ Our deep learning model uses a siamese network to perform a one-shot learning ta
 
 ***
 
+## Results
+
+Face Recognition Results:
+<p align='center'>
+<img src="./images/image-loss.png" alt="Sample" style="text-align:center; width: 400px;">
+<img src="./images/image-acc.png" alt="Sample" style="text-align:center; width: 400px;">
+</p>
+
+```
+Final Results - accuracy: 80% - val_accuracy: 77%
+```
+
+<br>
+Audio Recognition Results:
+<p align='center'>
+<img src="./images/audio-loss.png" alt="Sample" style="text-align:center; width: 400px;">
+</p>
+
+```
+Final Results - accuracy: 80%- val_accuracy: 73%
+```
+
+Mutlimodal Verification Results:
+```
+Final Results: accuracy: 78% val_accuracy: 80%
+```
+
+***
+
 ## Setup
 
 All of our training has been done on Colab Notebooks. So it is recommended to do so. 
 
 For setup on PC run in terminal:
-```shell
+```
 pip install -r requirements.txt
 ```
 To install the dependencies.
