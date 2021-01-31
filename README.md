@@ -30,7 +30,7 @@ Our deep learning model uses a siamese network to perform a one-shot learning ta
 1. Audio clips are converted into MEL spectrograms using matplotlib.
 2. Preprocessing images and audio spectrograms into data pairs to feed into the fused neural network.
 3. Forming train-test splits using sklearn
-4. Model contains VGG16 as the base model for image recognition and multiple Conv2D layers in the audio and fused model with output layer as a sigmoid layer.
+4. Model contains VGG16 as the base model for image recognition and multiple Conv2D layers in the audio and fused model with last dense layer as a sigmoid layer.
 5. Training the model.
 
 ***
