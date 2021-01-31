@@ -57,15 +57,16 @@ Face Recognition Results:
 Final Results - accuracy: 80% - val_accuracy: 77%
 ```
 
-<br>
+<br><br>
 Audio Recognition Results:
 <p align='center'>
 <img src="./images/audio-loss.png" alt="Sample" style="text-align:center; width: 400px;">
 </p>
 
 ```
-Final Results - accuracy: 80%- val_accuracy: 73%
+Final Results - accuracy: 80% - val_accuracy: 73%
 ```
+<br><br>
 
 Mutlimodal Verification Results:
 <p align='center'>
@@ -78,7 +79,7 @@ Mutlimodal Verification Results:
 </p>
 
 ```
-Final Results: accuracy: 78% val_accuracy: 80%
+Final Results: accuracy: 78% - val_accuracy: 80%
 ```
 
 ***
