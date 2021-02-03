@@ -88,11 +88,13 @@ Final Results: accuracy: 78% - val_accuracy: 80%
 
 All of our training has been done on Colab Notebooks. So it is recommended to do so. 
 
-For setup on PC run in terminal:
+For setup on PC conda environment is recommended:
 ```
-pip install -r requirements.txt
+git clone https://github.com/4molybdenum2/Human-Verification-using-Multimodal-Deep-Learning.git
+cd Human-Verification-using-Multimodal-Deep-Learning
+conda env create -f environment.yml
+conda activate {environment name}
 ```
-To install the dependencies.
 ***
 ## Contributors
 
